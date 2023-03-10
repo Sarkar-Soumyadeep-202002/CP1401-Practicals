@@ -1,0 +1,30 @@
+Quick Questions:
+
+1)Write two variable names that would be valid and well-named.
+2)Write two variable names that would be valid but not well-named.
+3)Write two variable names that would not be valid.
+4)What is the naming convention for variables in Python?
+5)What is a constant? Give an example of when you would use one.
+6)What is the naming convention for constants?
+
+Answers:
+1)name,logic
+2)bcd,xyz
+3)Wrong,Incorrect
+4)For naming variables in python, the variable name must start with a letter or underscore character.It cannot start with a number and it can only have alphabets and
+  numbers and underscore. Variable names are case-sensetive in python so uppercase and lowercase names are different.
+5)A variable which has a fixed value which cannot be changed is called a constant.
+6)A constant uses the same naming convention as any other type of variable. It cannot begin with a number, it can have alphabets, numbers and underscore characters only.
+  They are also case sensitive.
+
+
+Logical Exercise:
+
+A drawer contains 10 black and 10 white socks that are all mixed up. What is the fewest number of socks you can take from the drawer without looking and be sure to get a pair of the same colour?
+Answer: We have to take a minimum number of 3 socks in order to be sure to have atleast 1 pairs of same colour socks.
+
+
+
+
+
+

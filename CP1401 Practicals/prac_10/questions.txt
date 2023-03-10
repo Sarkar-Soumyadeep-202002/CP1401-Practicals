@@ -1,0 +1,34 @@
+Quick Questions
+
+1)Explain the difference between the 'r' and 'w' modes when opening a file.
+2)What is a file object and how is it different from a file name or the file's contents?
+3)Why is it necessary to close a file after it has been opened and used?
+4)What is a good principle for deciding whether a literal value should be stored in a CONSTANT?
+5)Write a single Python expression that would evaluate to the file extension of a variable like
+            filename = "this_is_a_name.txt" or filename = "document.docx"
+            In those two examples, the result of the expression would be txt and docx respectively.
+6)What is a good number of quick questions to have at the start of a practical?
+
+Answers
+
+1)'r' mode is the read mode where we cannot modify the contents of the file but the 'w' mode is the write mode where we add new lines to the file.
+2) A file object associates the in-built functions in python to a file in the computer's disc when it is created.
+3) A file should be closed after using it in order to avoid losing data from the file or making it inaccessible until the program closes.
+4) It is good to use CONSTANTS so that their value doesn't change throughout the program.
+5)number='numbers.txt'
+  x=number.split('.')
+6)Six is a good number of quick questions.
+
+Logic Exercise
+
+Consider the following list of 3 statements:
+
+There is exactly 1 false statement in this list.
+There are exactly 2 false statements in this list.
+There are exactly 3 false statements in this list.
+How many false statements are there in the list; 0, 1, 2 or 3?
+
+Answer
+
+There are 2 false statements in the list because the list cannot simultaneously have exactly 1, 2 and 3 false statements.
+

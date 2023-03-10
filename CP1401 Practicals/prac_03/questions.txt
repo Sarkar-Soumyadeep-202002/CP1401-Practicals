@@ -1,0 +1,59 @@
+Quick questions:
+1)What is the "not equal to" operator in Python?
+2)What is the "less than or equal to" operator in Python?
+3)b + c * a > a ** b
+4)True or (c ** b - a % b > c ** c)
+5)not True and False or True
+6)(a * b + c) % 2 == 0
+a=2,b=3,c=4
+
+Answers:
+1)!= is the 'not equal to' operator.
+2)<= is the 'less than or equal to' operator.
+3)This expression is true.
+4)True or (62>256)
+  => True or False
+  This expression will be true as the or operator returns true if either of the expressions which are present in the expression is true.
+5)!True and False or True
+ =>False and False or True
+ This statement is also true because False and False returns False and False or True returns True.
+6)This statement is True as 10 % 2 is 0.
+
+Pattern:
+1)if, no else
+2)if-else
+3)if-elif-else
+4)if-elif no else
+5)if, if, if...
+
+Which pattern would be the most appropriate choice for each of the following situations:
+
+1)Deciding what coffee to make based on a customer's order (flat white, cappuccino, piccolo, long black, espresso...)
+2)Deciding whether to toast a customer's sandwich
+3)Recording what foods a customer is allergic to (ask for each allergen)
+4)Calculating tax based on income - could be one of several tax brackets
+5)Handling the "play again?" question at the end of a computer game level
+6)Determining if a frog is poisonous based on its colour
+7)Determining if a frog is poisonous based on its colour, tongue length and number of eyes
+
+Answers:
+
+1) if,if,if.. is the most appropriate pattern.
+2)if-else is the most appropriate pattern.
+3)if,if,if.. is the most appropriate pattern.
+4)if,if,if.. is the most appropriate pattern.
+5)if, no else is the most appropriate pattern.
+6)if-else is the most appropriate pattern.
+7)if-elif-else is the most appropriate pattern.
+
+Logic Exercise:
+
+When asked her 3 children's ages, Mrs. Muddled said that Alice is the youngest unless Bill is, and that if Carl isn't the youngest then Alice is the oldest.
+Who is the oldest and who is the youngest?
+
+Answer: Alice is the eldest child and Bill is the youngest. This is because if Bill is not youngest then Alice becoems youngest and Carl is also not the youngest. But when carl is not the youngest , Alice has to be the eldest so this case is not possible. If Carl is the youngest , bill is not and if bill is not youngest then alice has to be youngest which again is not possible in this case. Therefore if Bill is youngest, Carl is not youngest which implies that Alice is the oldest which is possible.
+
+
+
+
+

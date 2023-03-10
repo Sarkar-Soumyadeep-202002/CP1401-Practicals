@@ -1,0 +1,71 @@
+Logic Exercise:
+
+Smith is the project manager, Brown is the consultant and Jones is the programmer.
+Explanation:The project manager earns the most,hence Smith is the manager and Brown is not an only son hence he has to be the consultant.
+
+
+Algorithm with I,P,O:
+
+get dose,yeild
+brewratio=dose/yeild
+print(brewratio)
+
+Explanation:brewratio is the quotient when the dose is divided by yeild.
+
+Algorithm with decision:
+
+get price,mymoney
+if price>mymoney
+   cannot buy
+else
+   can buy
+
+Explanation:When the money I have is not sufficient, I cannot afford to buy an object.
+
+Algorithm with repetition:
+
+get things_on_floor
+while(things_on_floor>0)
+    print("keep picking up")
+    things_on_floor=things_on_floor-1
+ print("stop picking up")
+Explanation:As long as things_on_floor is not 0, we keep picking up.When it becomes 0,we stop.
+
+ Problem Decomposition:
+
+Question 1:
+
+Nouns:doctor,drug,patient,system,dosage,user,hours,medicine
+Verbs:calculate,administered,get,receive,display
+
+Algorithm:
+get hourlydosage,numofhours
+totaldosage=hourlydosage*numofhours
+print(totaldosage)
+
+Question 2:
+
+Nouns:photos,way,charge,customer,system,name,date,hours,code
+Verbs:calculate,booking,use,make,entered,display
+
+Algorithm:
+
+get hourlycharge,numofhours
+totalcharge=hourlycharge*numofhours
+print("name and date of booking of customer",totalcharge)
+
+
+
+
+
+Question 3:
+
+Nouns:road,trip,system,user,distance,time,minutes,speed,average
+Verbs:planning,ask,travel,show
+
+Algorithm:
+
+get disttravelled,timeinminutes
+timeinhours=timeinminutes/60
+averagespeed=disttravelled/timeinhours
+print(averagespeed)

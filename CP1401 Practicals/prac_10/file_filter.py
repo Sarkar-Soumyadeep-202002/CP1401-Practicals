@@ -1,0 +1,17 @@
+input_file_name=input('Enter input file name: ')
+out_file=open(input_file_name,'w')
+print('Programming is fun.',file=out_file)
+print('Python is easy.',file=out_file)
+print('Java has bigger syntax.',file=out_file)
+print('Singapore is a small place.',file=out_file)
+print('It is quite expensive out here.',file=out_file)
+out_file.close()
+in_file=open(input_file_name,'r')
+output_file_name = input('Enter output file name: ')
+string = input('Enter searching string: ')
+out_file_2 = open(output_file_name, 'w')
+for line in in_file:
+    line.strip()
+    if string in line:
+        print(line,file=out_file_2)
+out_file.close()

@@ -1,0 +1,93 @@
+Quick Questions
+
+1)What is the PyCharm keyboard shortcut for commenting (out/in) a selection of code?
+2)What are the two kinds of loops available in Python?
+3)What is a "sentinel" (when dealing with loops)?
+4)What is wrong with this variable name: nothingWrong
+5)What are augmented assignment operators?
+
+Answers:
+1)The keyboard shortcut for commenting out/in is control+/ in windows and command+/ in MacOS.
+2)The 2 kinds of loops available in python are for loop(definite) and while loop(indefinite).
+3)The value which terminates a loop is called sentinal.
+4)It has an Uppercase character in the middle of its name which is not allowed in python.
+5)In python, augmented operators are += , -=,*=,/=
+
+Range:
+a)Loop outputs:
+# 1.
+for i in range(6):
+    print(i, end=' ')
+print()
+
+# 2.
+for i in range(33, 39):
+    print(i, end=' ')
+print()
+
+# 3.
+for i in range(17, 11, -1):
+    print(i, end=' ')
+print()
+
+# 4.
+for i in range(1, 11):
+    print(i % 2, end=' ')
+print()
+
+# 5.
+for i in range(10, 0, -2):
+    print(i ** 2, end='>')
+print()
+
+Answers:
+1)0 1 2 3 4 5
+2)33 34 35 36 37 38
+3)17 16 15 14 13 12
+4)1 0 1 0 1 0 1 0 1 0
+5)100>64>36>16>4
+
+b)Write the range statements (just range and parameters, not the whole loop) equivalent to the following lists of numbers:
+
+1)[0, 1, 2, 3, 4, 5]
+
+2)[1, 5, 9, 13]
+
+3)[3, 2, 1]
+
+4)[7, 4, 1, -2, -5]
+
+Answers:
+1)range(6)
+2)range(1,14,4)
+3)range(3,0,-1)
+4)range(7,-6,-3)
+
+Patterns:
+Which pattern would be the most appropriate choice for each of the following situations:
+
+1)Error-checking user input, looping until they enter a valid response
+2)A menu with several options including 'quit'
+3)Displaying all the months in a year
+4)Printing 5 random numbers
+5)Printing n random numbers, where n is a user input
+
+Answers:
+1)while loop
+2)while loop
+3)for loop
+4)for loop
+5)for loop
+
+Logic Exercise:
+
+There are three boxes which each contains two marbles:
+
+one has two white,
+one has two black, and
+one has one white and one black marble.
+Each of the boxes also is labeled as to its contents, but the labels have been swapped around and each label is incorrect.
+What is the fewest number of marbles you could remove from the boxes and look at in order to definitely determine the contents of all three boxes?
+
+Answer:
+We have to pick 3 balls in total in order to be able to state the contents of all the 3 boxes.

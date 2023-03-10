@@ -1,0 +1,41 @@
+Quick Questions:
+
+1)What is the PyCharm shortcut key for commenting selected line/s of code?
+2)What is the single most important design principle for designing functions?
+3)What is the Python keyword for returning a value from a function?
+4)What are arguments and parameters? What is the difference between them?
+5)What is the Python function call for generating a random number between 1 and 100?
+6)Name 4 functions we've used in the subject so far (functions we've "called").
+7)How many grams of freshly-ground specialty coffee did Lindsay make his coffee with in the lecture video?
+
+Answers:
+
+1)The shortcut key command for commenting selected line/lines of code is control+/ for windows and command+/ for MacOS
+2)Single Responsibility Principal is the most important design principle for designing functions.
+3)The keyword 'return' is used to return a value from a function.
+4)The variables or objects which are used in the function calling statement are called arguments. The variables or objects which are present in the function definition are called parameters.
+5)The required function call statement is random.randint(1,100)
+6)4 such functions are:
+  i)print()
+  ii)range()
+  iii)upper()
+  iv)lower()
+7)
+
+Write good names for the following functions:
+
+1)determine a subject grade based on a given total score
+2)convert currency from USD to AUD
+3)print a report
+4)calculate the average of a list of numbers
+5)determine if a number is even
+6)get a user's salary, making sure that it is not negative
+
+Answers:
+
+1)calculate_grade()
+2)convert_USD_to_AUD()
+3)print_report()
+4)calculate_average()
+5)check_even()
+6)get_valid_salary()

@@ -1,0 +1,13 @@
+import random
+number=int(input('How many numbers: '))
+maximum=int(input('Maximum number: '))
+numbers=random.sample(range(0,maximum),number)
+print(numbers)
+print('The minimum is ', min(numbers))
+print('The maximum is ', max(numbers))
+rand_number=random.randint(0,maximum)
+print('Random number: ', rand_number)
+numbers.reverse()
+print('The numbers reversed are: ', numbers)
+sorted(numbers)
+print('The sorted numbers are :', numbers)

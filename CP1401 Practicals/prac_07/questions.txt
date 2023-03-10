@@ -1,0 +1,19 @@
+Quick Questions
+
+1)Where should global constants be placed in a program?
+2)What are two reasons why you should not use global variables?
+3)When you have two variables with the same name but in different functions, these said to have different ____?
+4)What do you call the red dot in the margin in PyCharm that pauses the program running when using the debugger?
+5)Briefly explain what would be wrong if you had a line of code like SOME_VALUE += 1 (assume that SOME_VALUE is actually a meaningful name).
+6)What is the single most important design principle for designing functions?
+
+Answers:
+1) Global constants are placed above or outside all functions in a program.
+2) Two reasons are:
+   i)Functions using global variables are generally dependent on these variables and therefore are hard to be reused in another program.
+   ii) Global variables make debugging of the code harder as they are placed in multiple places in a program.
+3)These variables are said to have different scopes.
+4)They are known as breakpoints.
+5)This line of code is incorrect because SOME_VALUE is a global constant and its value cannot be changed throughout the program.
+6)The Single Responsibility Principle is the most important design principle for designing functions.
+
